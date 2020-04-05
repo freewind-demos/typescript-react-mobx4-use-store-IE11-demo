@@ -8,8 +8,9 @@ type Props = {
 
 function Hello({counter}: Props) {
   return <div>
-    <button onClick={() => counter.count += 1}>+1</button>
-    <h1>Count: {counter.count}</h1>
+    <button onClick={() => counter.increase()}>+1</button>
+    <div>Count: {counter.count}</div>
+    <div>Double: {counter.double}</div>
   </div>
 }
 
