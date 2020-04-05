@@ -1,5 +1,5 @@
-TypeScript React Hello World Demo
-=================================
+TypeScript React MobX Demo
+==========================
 
 ```
 npm install
