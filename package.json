@@ -1,10 +1,10 @@
 {
   "scripts": {
-    "demo": "webpack-dev-server --open"
+    "demo": "webpack-dev-server --host 0.0.0.0 --open"
   },
   "dependencies": {
-    "mobx": "5.15.4",
-    "mobx-react": "6.1.8",
+    "mobx": "4.15.7",
+    "mobx-react": "5.4.4",
     "react": "16.9.0",
     "react-dom": "16.9.0"
   },
